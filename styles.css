@@ -11,10 +11,4 @@ body {
 
 .container > div {
     background-color: black;
-    /* width:  6.25%; */
-    /* box-sizing: border-box; */
 }
-
-/* .container > div:hover {
-    background-color: white;
-} */

@@ -13,7 +13,7 @@ function changeGrid() {
             container.appendChild(div)
             div.style.width = `${100/gridSize}%`
             div.addEventListener("mouseenter", () => {
-                div.style.backgroundColor = "white"
+                div.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`
             })
             div.addEventListener("mouseleave", () => {
         
@@ -23,15 +23,3 @@ function changeGrid() {
         changeGrid()
     }
 }
-
-// for (let i = 0; i < 256; i++) {
-//     const div = document.createElement("div");
-//     container.appendChild(div)
-//     div.style.width = `${100/16}%`
-//     div.addEventListener("mouseenter", () => {
-//         div.style.backgroundColor = "white"
-//     })
-//     div.addEventListener("mouseleave", () => {
-
-//     })
-// }
