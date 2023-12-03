@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.container > div {
+    background-color: black;
+    /* width:  6.25%; */
+    /* box-sizing: border-box; */
+}
+
+/* .container > div:hover {
+    background-color: white;
+} */
